@@ -15,16 +15,16 @@ export function AirdropClaimCard() {
       <Flex flex={1}>
         <Flex direction={'column'} flex={1} align={'center'}>
           <Text pb="6" textAlign={'center'} mt={2} color="text.low">
-            Q4 airdrop is up! <br />
-            <Link
+            Fjord tendies have arrived! <br />
+            {/* <Link
               pr={1}
               color={'text.bright'}
               href="https://concave.lol/blog/concave-q4-airdrop-is-here/"
               isExternal
             >
               Click here
-            </Link>
-            for more info
+            </Link> */}
+            Make sure you have the correct wallet connected!
           </Text>
           <ItemInfo info={`${Q4.redeemable || 0} USDC`} title="Redeemable amount" />
           <AirdropClaimButton {...Q4} season="Q4" />
